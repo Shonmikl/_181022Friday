@@ -1,5 +1,5 @@
 package org.example._2023_06_02;
-
+//O(n) + O(n)
 public class Famous {
     Famous getFamous(Famous[] person) {
         Famous f = null;
