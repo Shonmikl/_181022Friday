@@ -12,4 +12,8 @@ public class T {
     String name;
     int age;
     double salary;
+
+    public static void main(String[] args) {
+
+    }
 }
