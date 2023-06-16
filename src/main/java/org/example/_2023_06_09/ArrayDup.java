@@ -59,8 +59,9 @@ public class ArrayDup {
 //        int[] a = {77, 88, 1, 2, 3, 1, 2, 3, 77};
 //        System.out.println(searchDuplicated(a));
         // System.out.println(43 ^ 62);
+        System.out.println(Integer.toBinaryString(1999999999));
 //
-        int n = 0b00000111;
+        int n = 0b00001111;
         System.out.println(bitCount(n));
         char c = 'A';
         c++;
