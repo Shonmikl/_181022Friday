@@ -2,7 +2,6 @@ package org.example._2023_06_23.backPack;
 
 public class Perebor {
 
-
     public static void main(String[] args) {
         int[] weights = {3, 4, 5, 8, 2, 4, 5,
                          15, 4, 5, 8, 2, 4, 5,
