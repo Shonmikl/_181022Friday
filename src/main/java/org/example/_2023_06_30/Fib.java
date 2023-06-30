@@ -4,6 +4,7 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 public class Fib {
+    //O(n)
     public static long fibLoops(final int fibIndex) {
         if(fibIndex < 0) {
             throw new IllegalArgumentException();
@@ -19,6 +20,7 @@ public class Fib {
         return fib2;
     }
 
+    //O(2^n)
     public static long fibRec(final int fibIndex) {
         if(fibIndex < 0) {
             throw new IllegalArgumentException();
@@ -32,6 +34,7 @@ public class Fib {
                 1L : fibRec(fibIndex - 2) + fibRec(fibIndex - 1);
     }
 
+    //O(n)
     public static long fibStream(final int fibIndex) {
         Optional<Long> result = Stream
                 .iterate(new long[]{0, 1}, arr -> new long[]{arr[1], arr[0]+ arr[1]})
